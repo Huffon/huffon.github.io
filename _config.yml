@@ -71,7 +71,7 @@ ga_domain: huffon.github.io
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Para as futuras gerações" + "\n" + "미래 세대를 위하여"
+sidebar-about-description: "Para as futuras gerações<br>미래 세대를 위하여 기록합니다."
 sidebar-avatar: /img/avatar-huffon.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
