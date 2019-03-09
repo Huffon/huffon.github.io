@@ -145,6 +145,15 @@ body, html {
 }
 
 /** Venders Logo **/
+.i-py:before {
+	content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/logo-python.png") 50% 50% no-repeat;
+    background-size: 20px;
+}
+
 .i-vue:before {
 	content: "";
     display: block;
