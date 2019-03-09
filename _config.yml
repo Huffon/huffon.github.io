@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-github_username:    huffon
 #twitter_username:   huxpro
+github_username:    gjvhs
 facebook_username:  huffon
-#linkedin_username:  firstname-lastname-idxxxx
+linkedin_username:  huffonism
 
 
 
