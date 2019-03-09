@@ -6,6 +6,6 @@
 기술을 통해 누군가의 불편을 해결할 수 있다는 점에 매료되어 인공지능으로 진로를 설정하였고,<br>
 먼 미래에는 연구자로서 혹은 강단에 서서, 누군가에게 긍정적 영향을 미칠 수 있는 사람으로 성장하고자 합니다.
 
-보다 자세한 이력은 [Curriculum Vitae](./heohoon_CV.pdf)에 기록합니다.
+보다 자세한 이력은 [Curriculum Vitae](huffon.github.io/assets/heohoon_CV.pdf)에 기록합니다.
 
 포르투갈어와 소프트웨어를 전공하였고, [한국외국어대학교](http://hufs.ac.kr)를 2019년에 졸업할 예정입니다.
