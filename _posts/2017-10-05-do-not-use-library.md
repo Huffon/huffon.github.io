@@ -8,6 +8,7 @@ lang: kr
 tags:
   - Library function
 ---
+
 ![](/img/in-post/lib1.jpg)
 
 혼자 프로그래밍 언어를 공부하다 이번 학기 전공 수업으로 강의를 수강하며 듣다보니, 과제의 조건이 굉장히 낯선 경우가 많다.
