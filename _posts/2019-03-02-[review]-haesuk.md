@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[도서 리뷰] 프로그래머를 위한 기초 해석학"
-subtitle: '4차 산업혁명, 그 가까운 미래에 대한 고찰'
+subtitle: '문과생이 읽어보는 해석학'
 author: "devfon"
 header-style: text
 lang: kr
