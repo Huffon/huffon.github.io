@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "첫 번째 팀 프로젝트를 마친 후 느낀 점"
-subtitle: '인공지능을 두려워 하는 이들을 위하여'
+subtitle: '어렵디 어려운 팀 프로젝트를 통해 배우기'
 author: "devfon"
 header-style: text
 lang: kr
