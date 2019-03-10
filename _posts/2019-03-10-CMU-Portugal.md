@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "CMU-Portugal"
-subtitle: '포르투갈과 미국에서 학위 취득하기'
+title: "포르투갈과 미국에서 공학학위 취득하기"
+subtitle: 'CMU Portugal 프로그램에 대해 알아보자'
 author: "devfon"
 header-style: text
 lang: kr

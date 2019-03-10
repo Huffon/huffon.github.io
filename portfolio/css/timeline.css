@@ -154,6 +154,24 @@ body, html {
     background-size: 20px;
 }
 
+.i-mongo:before {
+	content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/logo-mongo.png") 50% 50% no-repeat;
+    background-size: 20px;
+}
+
+.i-node:before {
+	content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/logo-node.png") 50% 50% no-repeat;
+    background-size: 20px;
+}
+
 .i-java:before {
 	content: "";
     display: block;
@@ -161,24 +179,6 @@ body, html {
     height: 40px;
     background: url("../images/logo-java.png") 50% 50% no-repeat;
     background-size: 20px;
-}
-
-.i-vue:before {
-	content: "";
-    display: block;
-    width: 40px;
-    height: 40px;
-    background: url("../images/logo-vue.png") 50% 50% no-repeat;
-    background-size: 20px;
-}
-
-.i-kissy:before {
-	content: "";
-	display: block;
-	width: 40px;
-	height: 40px;
-	background: url("../images/logo-kissy.png") 50% 50% no-repeat;
-	background-size: 20px;
 }
 
 .i-jquery:before {
@@ -196,6 +196,33 @@ body, html {
 	width: 40px;
 	height: 40px;
 	background: url("../images/logo-react.png") 50% 50% no-repeat;
+	background-size: 22px;
+}
+
+.i-react:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/logo-hadoop.png") 50% 50% no-repeat;
+	background-size: 22px;
+}
+
+.i-mysql:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/logo-mysql.png") 50% 50% no-repeat;
+	background-size: 22px;
+}
+
+.i-spark:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/logo-spark.png") 50% 50% no-repeat;
 	background-size: 22px;
 }
 
