@@ -6,8 +6,7 @@ author: "devfon"
 header-style: text
 lang: kr
 tags:
-  - Team project
-  - Review
+  - Computer Science
 ---
 
 빅데이터 전문가 과정의 마지막으로 팀 프로젝트를 진행했다. 처음으로 진행한 프로젝트가 개인 프로젝트도 아닌 팀 프로젝트이다 보니 느낀 부분이 너무나도 많아 따로 정리를 하고 넘어가야 겠다는 생각을 하게 되었다.  

@@ -6,7 +6,7 @@ author: "devfon"
 header-style: text
 lang: kr
 tags:
-  - Library function
+  - Computer Science
 ---
 
 ![](/img/in-post/lib1.jpg)

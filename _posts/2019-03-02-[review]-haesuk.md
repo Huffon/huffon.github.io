@@ -6,9 +6,8 @@ author: "devfon"
 header-style: text
 lang: kr
 tags:
-  - Artificial Intelligence
   - AI
-  - analysis
+  - Mathematics
 ---
 
 ![](/img/in-post/haesuk.jpg)

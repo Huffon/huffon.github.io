@@ -7,7 +7,6 @@ header-style: text
 lang: kr
 tags:
   - Theater
-  - Aubergine
   - Review
 ---
 
