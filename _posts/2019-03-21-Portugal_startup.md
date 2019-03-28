@@ -7,7 +7,8 @@ header-style: text
 lang: kr
 tags:
   - Portugal
-  - Computer Science
+  - IT
+  - Startup
 ---
 
 [The Portugal News](http://www.theportugalnews.com/)에 따르면 2019년 2월 포르투갈 내 스타트업 기업수는 전년 대비 23.9% 증가하여 4668개가 신생되었고, 파산 기업 수는 1% 감소한 494개 기업이 파산하여 사라졌다고 한다. 바야흐로 IT, 통신 기술 등을 활용한 테크 스타트업 전성시대가 포르투갈에 열리게 된 것이다. 그렇다면 포르투갈에서는 왜 갑자기 이같은 스타트업 붐이 발생한 것일까? 그 원인을 찾아가 보자.
