@@ -38,32 +38,25 @@ Startup Visa Portugal은 총 두 개의 타겟 그룹을 위해 제공되는 Vis
 잠재력은 대체 어떻게 증명할 수 있는 부분인지는 모르겠지만, 상세 조건을 살펴보면 이와 같이 까다로운 조건들이 많이 포진되어 있는 것을 알 수 있다. 아무리 정부가 제공하는 Golden Visa라도 역시 복잡한 조건을 내걸고 있음을 알 수 있다. 또한 포르투갈 내에 새로운 고용 창출을 유발할 수 있어야 한다는 점 역시 꽤나 까다로운 조건인 것 처럼 보인다.
 
 #### After Visa
-Startup Portugal은 위에 설명한 Startup Visa 외에도 다양한 프로그램을 제공해준다. 2016년 Web Summit의 이전과 함께 정부는 3가지 목표를 가지고 Startup Portugal을 발족한다.
+Startup Portugal은 현재 앞서 설명한 Startup Visa 외에도 다양한 프로그램을 제공하고 있다. 첫 번째 포스팅에서도 살펴보았던 Startup Portugal은 2016년 Web Summit의 이전과 함께 정부는 3가지 목표와 함께 설립되었다. 
 
-In 2016 the National Strategy for Entrepreneurship Startup Portugal was launched by the Government with 3 objectives: to create and support the national ecosystem, to attract national and foreign investors and to accelerate the growth of Portuguese startups in foreign markets. The Startup Portugal+ Program, presented in July 2018, was designed by the Government to give a new impetus to the initial strategy and to address emerging challenges. In addition to the consolidation of 5 measures of the original program, 20 new measures are launched.
+1. 국가의 스타트업 생태계를 형성하고 지원한다.
+2. 국내/외의 투자자들을 유치한다.
+3. 국제 시장에서 포르투갈 스타트업의 성장을 장려한다.
+
+이후 2018년 7월 Startup Portugal+ 프로그램이 다시 제시되었고, 현재 다양한 스타트업 지원 프로그램을 지원하며 이전에 맞닥뜨린 다양한 도전들을 해결해나가고 있다고 한다. 또한 기존에 존재한 5개의 지원 프로그램이 현재는 20개로 늘어난 상황이다.
 
 - Startup Voucher
-
 Idea 단계의 프로젝트의 개발을 돕는 Voucher이다. 기술적, 금전적 지원의 배정을 돕는 이 Startup Vocher는 18세부터 35세 사이의 기업가가 이끄는 혁신적인 스타트업의 생성을 담당한다. 앞으로 1년 당 2번의 모집 공고가 있을 예정이라고 한다.
 
-- Momentum Proram
-
-최근에 졸업하거나, 
-Support for recent graduates and finalists of Higher Education who have benefited from social action grants and who, at the end of their studies, want to develop a business idea.
-New: The number of projects supported under this program will increase to about 50 per year.
-
 - Incubation Voucher
-
-Support to companies with less than one year in the area of ntrepreneurship, by contracting services provided by certified incubators. Support includes management services, marketing, legal advice and support, digitization support intellectual property protection and support for applications for entrepreneurship and innovation contests.
-New: Applications will be open continuously, starting in July 2018. The maximum value of the ticket goes from 5,000 to 7,500 euros, except in Lisbon.
+설립 1년 미만의 스타트업들이 포르투갈 내에서 보증된 Incubator와 계약할 수 있도록 지원해주는 프로그램이다. 지원 분야로는 관리 서비스, 마케팅, 법적 조언, 지적 재산권 보호와 관련한 교육 등이 있으며, 계약 당사자가 되는 스타트업이 다양한 스타트업 경진 대회에 참가할 수 있도록 돕는다.
 
 - Internationalization Support Missions
-
-Support for the participation of Portuguese startups in major international technology events and in state visits abroad with members of the Government. It aims to promote the visibility of national startups abroad and of Portugal as an innovative country.
-Upcoming missions / events 2018: Germany, Brazil, United Kingdom, TechCrunch (September), SLUSH - Helsinki (December), TechCrunch - Berlin 
+포르투갈에 위치한 스타트업들이 다양한 국제적 Tech event에 참가할 수 있도록 지원해주는 프로그램이다. 또한 국가 관게자들과 함께 해외를 탐방할 기회도 제공한다. 이는 포르투갈 내 스타트업들과 포르투갈이라는 나라가 혁신적이라는 것을 세계 무대에 알리기 위함에 있다.
 
 - Startup Hub
-Create a digital platform for mapping startups and national incubators, which includes information on the supports available to the ecosystem. The platform will also allow you to approach startups and large companies through the Pitch Voucher.
+Startup들과 포르투갈 내 Incubator들을 매칭시켜주는 디지털 플랫폼을 제공한다. 해당 플랫폼은 현재 스타트업 생태계에 도움이 될만한 다양한 정보를 제공한다. 또한 미래에는 대기업들과 스타트업을 매치시켜주는 기회 제공까지 확장할 예정이다.
 
 이외에도 Startup Portugal은 프로그램 참가자에게 기업가 정신 관련 교육, Pitching Voucher 등 다양한 프로그램을 제공하고 있다.
 
