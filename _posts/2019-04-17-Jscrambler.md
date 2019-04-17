@@ -10,7 +10,7 @@ tags:
   - IT
 ---
 
-![](/img/in-post/javascripts.jpg)
+![](/img/in-post/javascripts.jpg =300x)
 
 **JavaScript**는 웹 개발을 경험해 본 적이 없는 사람이라도, 웹 서핑을 하며 브라우져에서 많이 접해본 단어일 것이다. 이 JavaScript는 웹 개발, 그 중에서도 웹 브라우져의 화면에 보이는 부분을 담당하는 프로그래밍 언어이다. 즉, Front-end에서 사용되는 기능들을 설계하기 위해 사용되는 언어인 것이다.
 
