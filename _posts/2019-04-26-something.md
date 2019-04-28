@@ -16,14 +16,14 @@ tags:
 
 2019년 7월 11일, 9번 째 Lisbon Machine Learning School(LxMLS)이 개최된다. LxMLS2019는 이전 행사들과 마찬가지로 리스본대학교의 공과대학인 Instituto Superior Técnico (IST)의 주관 하에 이루어지며, 7월 11일부터 18일까지 총 7일간 진행된다. IST 외에도 INESC-ID, [Unbabel](https://unbabel.com/) 등이 공동 주관하는 이번 섬머 스쿨은 인공지능, 그 중에서도 머신러닝에 초점이 맞추어진 행사이자, Google이 메인 스폰서쉽을 담당하는 행사이다.
 
-2011년 제 1회 섬머 스쿨과 함께 시작된 Lisbon Machine Learning School은 머신러닝을 이용한 자연어 처리, 전통적인 전산 언어학을 메인 토픽으로 삼으며 빠르게 성장해왔다. 초기에는 행사의 명성이 부족해 대부분의 Keynote Speaker들이 포르투갈 내 학자이거나 혹은 잘 섭외되었을 경우, NLP 분야 Top-Tier인 Edinburgh 대학 교수진들이었다. 그러나 섬머 스쿨의 명성이 쌓임에 따라 2014년 NLP계 스타이자, CS224N에도 자주 등장하는 Salesforce의 **[Richard Socher]**(https://www.socher.org/)를 Speaker로 섭외하게 되었고, 2015년에는 그 방점을 찍어 딥러닝의 아버지, 우리의 **'Guru' [Yoshua Bengio]**(https://mila.quebec/en/yoshua-bengio/) 교수를 Speaker로 모셔오기도 했다.*여담으로 워싱턴 대학의 최예진 교수님도 이 때 초청되었다.*
+2011년 제 1회 섬머 스쿨과 함께 시작된 Lisbon Machine Learning School은 머신러닝을 이용한 자연어 처리, 전통적인 전산 언어학을 메인 토픽으로 삼으며 빠르게 성장해왔다. 초기에는 행사의 명성이 부족해 대부분의 Keynote Speaker들이 포르투갈 내 학자이거나 혹은 잘 섭외되었을 경우, NLP 분야 Top-Tier인 Edinburgh 대학 교수진들이었다. 그러나 섬머 스쿨의 명성이 쌓임에 따라 2014년 NLP계 스타이자, CS224N에도 자주 등장하는 Salesforce의 [Richard Socher](https://www.socher.org/)를 Speaker로 섭외하게 되었고, 2015년에는 그 방점을 찍어 딥러닝의 아버지, 우리의 **'Guru'** [Yoshua Bengio](https://mila.quebec/en/yoshua-bengio/) 교수를 Speaker로 모셔오기도 했다.*여담으로 워싱턴 대학의 최예진 교수님도 이 때 초청되었다.*
 
 ![](/img/in-post/meta-cho.png)
 > 작년 스케줄의 일부. 조경현 교수님이 행사의 마지막을 담당하셨다.
 
 이처럼 자연어 처리 분야에서 빠르게 명성을 쌓아가고 있는 LxMLS는 이번 2019년 행사를 위해 약 650명의 신청자를 받았으며, 이 중 **200명**을 선별하여 섬머 스쿨에 참가할 수 있는 자격을 부여할 것이라 한다. 그리고 여느 때와 마찬가지로 실습 위주의 실용적 세션들로 구성될 이번 섬머 스쿨은 자연어 처리, 전산 언어학 분야에 종사하고 있는 연구자, 교수 그리고 학생들을 행사의 대상으로 하며, 머신러닝에 대한 깊은 이해를 얻을 수 있도록 세션을 구성할 것이라고 한다.
 
-이번 섬머 스쿨의 연사로는 Chris Dyer (Google Deep Mind), Slav Petrov (Google), Bhiksha Raj (Carnegie Mellon University), Noah Smith (University of Washington, Allen Institute for Artificial Intelligence) 그리고 Kyunghyun Cho (New York University) 등이 초청되었다. Google, CMU, U.Washington 등 유수의 기관에서 연사들이 초청되었는데, 딥러닝 자연어 처리계에서 가장 저명한 연구자로 꼽히고 있는 뉴욕대학교 **[조경현]**(http://www.kyunghyuncho.me/) 교수님 역시 지난 해에 이어 올해도 연사로 초청되었다. *내년에도 부디 와주시길...*
+이번 섬머 스쿨의 연사로는 Chris Dyer (Google Deep Mind), Slav Petrov (Google), Bhiksha Raj (Carnegie Mellon University), Noah Smith (University of Washington, Allen Institute for Artificial Intelligence) 그리고 Kyunghyun Cho (New York University) 등이 초청되었다. Google, CMU, U.Washington 등 유수의 기관에서 연사들이 초청되었는데, 딥러닝 자연어 처리계에서 가장 저명한 연구자로 꼽히고 있는 뉴욕대학교 [조경현](http://www.kyunghyuncho.me/) 교수님 역시 지난 해에 이어 올해도 연사로 초청되었다. *내년에도 부디 와주시길...*
 
 ![](/img/in-post/last-lx.jpg)
 
