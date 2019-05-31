@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "대학생들에게 주거지의 선택권을 넓혀주자 'Uniplaces'"
+title: "대학생들의 주거지 선택권을 넓혀준 'Uniplaces'"
 subtitle: '포르투갈의 성공적인 스케일업 사례: Uniplaces'
 author: "devfon"
 header-style: text
@@ -10,39 +10,53 @@ tags:
   - IT
   - Startup
 ---
+uniworks
 
-일반적을 성공한 스타트업들의 행보는 대개 두 분류로 나뉜다. '스케일업(Scale-up)' 혹은 '엑시트(Exit)'. 여기서 스케일업은 말 그대로 규모를 키우는 것이다. 포르투갈 내에서의 성공을 기반 삼아 주변 국가로 영역을 넓혀 나가는 방식이다. 그리고 엑시트는 창업자가 스타트업을 일정 수준으로 성장시킨 다음 대기업에 파는 것을 의미한다.
+일반적으로 성공한 스타트업들의 행보는 두 분류로 나뉜다. **'스케일업(Scale-up)'** 혹은 **'엑시트(Exit)'**. 여기서 스케일업이란 말 그대로 진행하던 사업의 규모를 확장하는 것이다. 포르투갈에서의 스케일업을 예로 들자면 포르투갈 내에서의 성공을 기반으로 주변 국가로 사업 영역을 넓혀 나가는 방식이다. 다음으로 엑시트는 창업자가 본인의 스타트업 기업을 일정 수준으로 성장시킨 다음 매각하는 것을 의미한다.
 
-'유니플레이스(Uniplaces)'와 '토크데스크(Talkdesk)'는 스케일업을 이뤄낸 스타트업이다. 유니플레이스는 지난 2011년 설립된 회사로 유럽에 2만여 개의 부동산을 확보, 학생들을 위한 주거공간을 제공하는 온라인 시장을 만들었다. 이 플랫폼을 통해 세계 165개국의 학생들이 단 세 번의 클릭만으로 유럽 40여 개 도시에서 주택을 임차할 수 있게 됐다. 유니플레이스는 2015년 스카이프(Skype) 창립자로부터 2200만달러의 자금을 투자받기도 했다.
+그리고 포르투갈의 [Uniplaces](https://www.uniplaces.com/)와 [Talkdesk](https://www.talkdesk.com/)는 스케일업을 성공적으로 이뤄낸 대표적인 포르투갈 스타트업 기업이다. 앞으로 두 포스팅을 통해 포르투갈을 넘어 세계 무대를 노리는 "스케일업"에 진행 중인 스타트업에 대해서 다루어 보고자 한다. 그리고 그 첫 번째 사례는 Uniplaces이다.
 
+Uniplaces는 지난 2011년 설립된 회사로 유럽에 2만여 개의 부동산을 확보, 학생들을 위한 주거공간을 제공하는 온라인 시장을 만들었다. 이 플랫폼을 통해 세계 165개국의 학생들이 단 세 번의 클릭만으로 유럽 40여 개 도시에서 주택을 임차할 수 있게 됐다. 유니플레이스는 2015년 스카이프(Skype) 창립자로부터 2200만달러의 자금을 투자받기도 했다. 해당 스타트업에 대해 더 자세히 알아보도록 하자.
 
-#### Findster Application & Device
+#### What is Uniplaces?
 ![](/img/in-post/unilogo.jpg)
 
-Uniplaces는
-Uniplaces is an online marketplace for booking student accommodation. Based in Lisbon, the platform was founded in 2012 by Miguel Amaro, Mariano Kostelec and Ben Grech. As of October 2015, students from over 140 countries have booked with Uniplaces for a total of more than 500,000 nights.
+Uniplaces의 어원은 예상 가능한 것과 같이 University와 Places의 합성어이다. Uniplaces는 학생용 거주지 예약을 위한 온라인 플랫폼이다. 포르투갈의 수도 Lisbon에 기반을 두고 있는 Uniplaces는 2012년 Miguel Amaro, Mariano Kostelec 그리고 Ben Grech에 의해 설립되었다. 그리고 2015년 140개국 출신의 학생들이 Uniplaces를 통해 총 50만 일 이상의 사용 기록을 남겼다.
 
-The platform’s name is derived from “university” and “places”, abbreviated to “Uniplaces”.
+Uniplaces는 2012년 포르투갈 출신 Miguel Amaro와 영국 출신 Ben Grech, 그리고 아르헨티나 출신 Mariano Kostelec이 설립하였다. 현재 본사는 리스본에 있으며, 런던에 지사를 두고 있다.
 
-Uniplaces was founded in 2012 by Miguel Amaro, from Portugal, Ben Grech, from England, and Mariano Kostelec, from Argentina, having its headquarters in Lisbon and an office in London.
+세 명의 공동 창업자들은 각각 노팅엄 대학교와 KCL에서 만났으며 2011년 여름 현재 사업에 대한 구상을 마쳤다. 그리고 2011년 11월 Lisbon의 스타트업 주간에 참여해 해당 플랫폼의 프로토타입을 만들게 되었다.
+2012년 프로토 타입의 런칭 이후, 긍정적인 반응에 힘입어 Uniplaces의 세 창업자는 정식 버전을 출시하고 포르투갈의 여러 대학과 파트너십을 맺기에 이른다.
 
-The three co-founders met at the University of Nottingham and at King's College London, and first came up with the concept in the Summer of 2011. In November 2011, they participated in Lisbon’s Startup Weekend and created the first version of the platform.[2]
+![](/img/in-post/uniweb.png)
 
-By the beginning of 2012, after a positive response, the trio built a fully working version of the website and secured several partnerships with universities in Portugal.[3]
+이후, 2014년 새로운 UI(User Interface) 디자이너들을 고용한 후 Uniplaces는 2015년 3월 완전히 재디자인한 로고와 웹사이트를 공개하였다. 같은 해 5월 Airbnb의 전 부회장이었던 Martin Reiter가 Uniplaces의 투자자 겸 사업 고문으로 참여하며 Uniplaces의 스케일업을 적극적으로 주도하게 된다. 
 
-After having hired a new Head of Design in 2014, Uniplaces unveiled its new website on 7 March 2015, featuring an entirely redesigned branding and logo.
+![](/img/in-post/unischolar.jpg)
 
-In May 2015, Martin Reiter, former VP at Airbnb, joined Uniplaces as an investor and advisor to help the company expand internationally.[4] 2015 also marked the launch of the Uniplaces Scholarship[5] and the Uniplaces Guarantee,[6] as well as a partnership with Google
+Uniplaces는 또한 한 학기 동안 유럽 밖에서 유럽으로 교환학생을 온 국제 학생들에게 한 학기 동안 주거 비용을 모두 지원해주는 **Uniplaces Scholarship**을 제시하기도 했다. 해당 장학금을 받기 위해 학생들은 자신이 어떤 학생인지, 무엇을 전공하는지 등 자신을 어필할 수 있는 내용으로 동영상을 찍어 게시한 후, 가장 많은 득표 수를 얻은 10명의 학생들을 선정해주었다.
 
+#### The Scale-up of Uniplaces
+리스본에서 시작된 Uniplaces는 2013년 같은 국가 Porto와 영국의 London으로 그 서비스 지역을 넓혔다. 
 2013 marked the company’s expansion to Porto and London, and later on, in May 2014, to Madrid.[8] After raising its third investment round, in October 2014, Uniplaces rapidly expanded to 39 cities in 8 countries across Europe by April 2015.
 
-Uniplaces completed a €200k seed round from a group of top European investors in July 2012.[9] Included in the deal were Portugal’s top angel fund Shilling Capital Partners as well as Alex Chesterman one of the UK’s most successful internet entrepreneurs, having founded Zoopla.co.uk and LOVEFiLM.com, and William Reeve who co-founded LOVEFiLM.com.[10][11]
+![](/img/in-post/unitarget.png)
 
-Uniplaces secured a second seed round in 2013, bringing in a further investment of €1M by British VCs (and Octopus Holdings Limited subsidiary) Octopus Investments.[12]
+이들은 2014년 10월에 옥토퍼스인베스트먼트로부터 350만 달러(한화 약 39억5천만 원)의 초기투자를 유치했으며, 2015년 11월 아토미코가 이끈 2,400만 달러(한화 약 270억9천만 원) 규모의 시리즈 A 투자를 유치했다.
 
-In October 2014, Uniplaces completed its first Series A round, raising €3M from its previous investors, as well as former Managing Director at Barclays Capital, Rob McClatchey.[13]
+2012년에 포르투갈 리스본에 설립된 유니플레이시스(Uniplaces)는 대학생을 위한 온라인 부동산 중개 플랫폼이다. 
 
-On 3 November 2015, during Web Summit, Uniplaces announced a €22M Series A round at Google HQ, in Dublin. This round was led by Atomico, and counted with previous investors Octopus Investments and Shilling Capital Partners.
+유니플레이시스는 대학교 동문 셋이 모여 만든 스타트업으로, 대학생들에게 신뢰를 주는 글로벌 브랜드를 지향하며 대학생을 위한 부동산 중개 서비스를 운영 중이다.
+
+방을 구하는 학생이라면 유니플레이시스에 접속해 입주 가능한 곳에 대한 정보를 비교해 볼 수 있으며, 유니플레이시스는 직접 발로 뛰며 실제 방의 상태를 확인한 곳 중 품질 기준에 부합한 곳에 '유니플레이스 인증' 배지를 부여해 실제 방을 확인하지 않고 온라인에서 거래할 수 있도록 했다. 또 마치 호텔 예약 사이트를 이용하듯 서비스를 이용할 수 있도록 결제까지 사이트 내에서 가능하게 했다. 수수료는 최초 1회만 지불하도록 했다. 이와 더불어 추가 멤버십 비용 등을 집주인으로 부터 받아 수익을 창출한다.
+
+방에 대한 정보 검색은 지역 설정, 날짜 설정, 방 타입(전체 집, 방)으로 간단하며, 관심 있는 방을 클릭하면 상세 정보를 확인할 수 있다.
+
+현재 38개 도시에서 등록된 4만 개의 방을 서비스 중이며 출시 이후 지금까지 방 계약 규모는 2,500만 달러(한화 약 282억 원)라고 밝혔다. 또 이용자는 140개국의 대학생들이며 그들은 유니플레이스를 통해 50만 박을 예약했다고 전했다.
+
+이번 투자는 기존 투자사인 옥토퍼스인베스트먼트뿐 아니라 전 세계 호텔 예약 사이트 '트리바고', 캔디크러시사가의 '킹닷컴', 클래시오브클랜의 '슈퍼셀' 등의 창업자들도 개인적으로 참여한 것으로 알려졌다.
+
+투자금은 사용자들의 서비스 이용경험을 발전시키기 위한 플랫폼 개발에 사용될 예정이며 현재 수가 늘고 있는 제품 팀의 인력을 고용할 계획이라고 밝혔다. 또한, 모바일 앱 개발에 집중할 예정이며 이 부분에 가장 많은 투자금이 사용될 것이라 예상했다. 현재 유니플레이시스를 운영하는 9개의 주요 유럽 국가(영국, 프랑스, 스페인, 독일, 이탈리아, 폴란드, 오스트리아, 포르투갈, 네덜란드)에서 시장 지위를 다질 계획이다. 이와 더불어 새로운 시장을 개척 할 것이며 이미 미국, 호주, 중국 브라질 등의 나라에서 많은 수요가 있다는 것을 확인했다고 공동 창업자인 미구엘 산토 아마로가 설명했다.
 
 #### References
 [Uniplaces](https://www.uniplaces.com/)
