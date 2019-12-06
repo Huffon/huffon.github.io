@@ -16,16 +16,19 @@ tags:
   <br />
 </div>
 
-Progress has been rapidly accelerating in machine learning models that process language over the last couple of years. This progress has left the research lab and started powering some of the leading digital products. A great example of this is the [recent announcement of how the BERT model is now a major force behind Google Search](https://www.blog.google/products/search/search-language-understanding-bert/). Google believes this step (or progress in natural language understanding as applied in search) represents "the biggest leap forward in the past five years, and one of the biggest leaps forward in the history of Search".
+지난 몇 년간 기계학습을 활용한 자연어 처리 기술에는 많은 발전이 있어왔습니다. 그리고 이제 발전된 자연어 처리 기술들은 연구실을 넘어 우리가 실제 사용하는 제품에까지 적용되고 있습니다. 이 중 가장 좋은 사례는 최근 [Google이 검색 엔진에 자연어 처리 모델인 BERT를 적용](https://www.blog.google/products/search/search-language-understanding-bert/)하기로 결정했다는 소식입니다. Google은 해당 결정이 
 
-This post is a simple tutorial for how to use a variant of BERT to classify sentences. This is an example that is basic enough as a first intro, yet advanced enough to showcase some of the key concepts involved.
+Google believes this step (or progress in natural language understanding as applied in search) represents "the biggest leap forward in the past five years, and one of the biggest leaps forward in the history of Search".
 
+이번 포스트는 문장 분류 작업을 수행하기 위해 BERT를 사용하는 방법을 다루는 간단한 튜토리얼입니다. BERT를 처음 사용하시는 분들도 이해할 수 있을 정도로 기본적이지만 이와 동시에, BERT를 이해함에 있어 중요한 개념들을 보기에 충분히 기술적인 예제입니다. 
+
+포스트와 더불어 
 Alongside this post, I've prepared a notebook. You can see it here [the notebook](https://github.com/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb) or [run it on colab](https://colab.research.google.com/github/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb).
 <!--more-->
 
 
 ## Dataset: SST2
-The dataset we will use in this example is [SST2](https://nlp.stanford.edu/sentiment/index.html), which contains sentences from movie reviews, each labeled as either positive (has the value 1) or negative (has the value 0):
+우리가 이번 예제에서 사용할 데이터셋은 [SST2](https://nlp.stanford.edu/sentiment/index.html)입니다. SST2는 [NSMC](https://github.com/e9t/nsmc)와 유사한 데이터셋으로 영화 리뷰 문장이 긍정일 경우 라벨 값으로 1을, 부정일 경우 라벨 값으로 0을 가집니다.
 
 <table class="features-table">
   <tr>
@@ -79,7 +82,8 @@ The dataset we will use in this example is [SST2](https://nlp.stanford.edu/senti
 </table>
 
 
-## Models: Sentence Sentiment Classification
+## 모델: 문장의 감정 분석
+우리의 목표는 위에서 살펴본 SST2 데이터셋 내 문장을 입력 값으로 받아 긍정의 '1' 혹은 부정의 '0'을 예측해내는 모델을 만드는 것입니다. 우리는 모델이 수행하는 작업을 다음 그림과 같이 생각할 수 있습니다.
 Our goal is to create a model that takes a sentence (just like the ones in our dataset) and produces either 1 (indicating the sentence carries a positive sentiment) or a 0 (indicating the sentence carries a negative sentiment). We can think of it as looking like this:
 
 
@@ -93,7 +97,7 @@ Under the hood, the model is actually made up of two model.
  *  [DistilBERT](https://medium.com/huggingface/distilbert-8cf3380435b5)  processes the sentence and passes along some information it extracted from it on to the next model. DistilBERT is a smaller version of BERT developed and open sourced by the team at [HuggingFace](https://huggingface.co/). It's a lighter and faster version of BERT that roughly matches its performance.
  * The next model, a basic Logistic Regression model from scikit learn will take in the result of DistilBERT's processing, and classify the  sentence as either positive or negative (1 or 0, respectively).
 
- The data we pass between the two models is a vector of size 768. We can think of this of vector as an embedding for the sentence that we can use for classification.
+The data we pass between the two models is a vector of size 768. We can think of this of vector as an embedding for the sentence that we can use for classification.
 
 
 <div class="img-div-any-width" markdown="0">
@@ -103,7 +107,7 @@ Under the hood, the model is actually made up of two model.
 
 If you've read my previous post, [Illustrated BERT](/illustrated-bert/), this vector is the result of the first position (which receives the [CLS] token as input).
 
-## Model Training
+## 모델 훈련 과정
 While we'll be using two models, we will only train the logistic regression model. For DistillBERT, we'll use a model that's already pre-trained and has a grasp on the English language. This model, however is neither trained not fine-tuned to do sentence classification. We get some sentence classification capability, however, from the general objectives BERT is trained on. This is especially the case with BERT's output for the first position (associated with the [CLS] token). I believe that's due to BERT's second training object -- Next sentence classification. That objective seemingly trains the model to encapsulate a sentence-wide sense to the output at the first position. The [transformers](https://github.com/huggingface/transformers) library provides us with an implementation of DistilBERT as well as pretrained versions of the model.
 
 
@@ -132,11 +136,9 @@ We will not touch distilBERT after this step. It's all Scikit Learn from here. W
 Then we train the logistic regression model on the training set:
 
 <div class="img-div-any-width" markdown="0">
-  <image src="/iimg/in-post/distilBERT/bert-training-logistic-regression.png"/>
+  <image src="/img/in-post/distilBERT/bert-training-logistic-regression.png"/>
   <br />
-
 </div>
-
 
 
 ## How a single prediction is calculated
@@ -286,9 +288,9 @@ After running this step, `last_hidden_states` holds the outputs of DistilBERT. I
   <br />
 </div>
 
-### Unpacking the BERT output tensor
-
-Let's unpack this 3-d output tensor. We can first start by examining its dimensions:
+### BERT 출력 텐서 Unpacking
+이제 3차원의 출력 값을 Unpack 해봅시다.
+We can first start by examining its dimensions:
 
 <div class="img-div-any-width" markdown="0">
   <image src="/img/in-post/distilBERT/bert-output-tensor.png"/>
@@ -328,7 +330,7 @@ And now `features` is a 2d numpy array containing the sentence embeddings of all
 </div>
 
 
-## Dataset for Logistic Regression
+## 로지스틱 회귀를 위한 데이터셋
 Now that we have the output of BERT, we have assembled the dataset we need to train our logistic regression model. The 768 columns are the features, and the labels we just get from our initial dataset.
 
 
@@ -369,10 +371,10 @@ lr_clf.score(test_features, test_labels)
 
 Which shows the model achieves around 81% accuracy.
 
-## Score Benchmarks
+## 벤치마크 지표
 For reference, the highest accuracy score for this dataset is currently **96.8**. DistilBERT can be trained to improve its score on this task -- a process called fine-tuning which updates BERT's weights to make it achieve a better performance in the sentence classification (which we can call the *downstream task*). The fine-tuned DistilBERT turns out to achieve an accuracy score of **90.7**. The full size BERT model achieves **94.9**.
 
-## The Notebook
+## 노트북 자료
 Dive right into [the notebook](https://github.com/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb) or [run it on colab](https://colab.research.google.com/github/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb).
 
 
