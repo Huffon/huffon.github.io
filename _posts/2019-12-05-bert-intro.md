@@ -16,9 +16,9 @@ tags:
   <br />
 </div>
 
-지난 몇 년간 기계학습을 활용한 자연어 처리 기술에는 많은 발전이 있어왔습니다. 그리고 이제 발전된 자연어 처리 기술들은 연구실을 넘어 우리가 실제 사용하는 제품에까지 적용되고 있습니다. 이 중 가장 좋은 사례는 최근 [Google이 검색 엔진에 자연어 처리 모델인 BERT를 적용](https://www.blog.google/products/search/search-language-understanding-bert/)하기로 결정했다는 소식입니다. Google은 해당 결정이 
+지난 몇 년간 기계학습을 활용한 자연어 처리 기술에는 많은 발전이 있어왔습니다. 그리고 이제 발전된 자연어 처리 기술들은 연구실을 넘어 우리가 실제 사용하는 제품에까지 적용되고 있습니다. 이 중 가장 좋은 사례는 최근 [Google이 검색 엔진에 자연어 처리 모델인 BERT를 적용](https://www.blog.google/products/search/search-language-understanding-bert/)하기로 결정했다는 소식입니다. Google은 해당 결정(혹은 검색에 있어서 적용될 수 있을만큼 발전한 자연어 이해 기술)이 지난 5년 중 가장 큰 한 걸음이자, 
 
-Google believes this step (or progress in natural language understanding as applied in search) represents "the biggest leap forward in the past five years, and one of the biggest leaps forward in the history of Search".
+represents "the biggest leap forward in the past five years, and one of the biggest leaps forward in the history of Search".
 
 이번 포스트는 문장 분류 작업을 수행하기 위해 BERT를 사용하는 방법을 다루는 간단한 튜토리얼입니다. BERT를 처음 사용하시는 분들도 이해할 수 있을 정도로 기본적이지만 이와 동시에, BERT를 이해함에 있어 중요한 개념들을 보기에 충분히 기술적인 예제입니다. 
 
