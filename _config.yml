@@ -1,5 +1,5 @@
 # Site settings
-title: devfon Blog
+title: Huffon Blog
 SEOTitle: Programador | Huffon Blog
 header-img: img/home-bg.jpg
 email: huffonism@gmail.com
@@ -12,9 +12,9 @@ baseurl: ""                             # for example, '/blog' if your blog host
 future: true
 
 # SNS settings
-RSS: false
+RSS: true
 github_username:    huffon
-facebook_username:  gjvhs
+facebook_username:  huffon
 instagram_username:  huffonism
 linkedin_username:  huffonism
 
