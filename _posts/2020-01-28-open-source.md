@@ -52,12 +52,12 @@ tags:
 ```python
 self.embeddings = nn.ModuleList()
 for i in range(len(self.cutoff)):
-	prev = self.cutoff[i - 1] if i > 0 else 0
+    prev = self.cutoff[i - 1] if i > 0 else 0
     size = self.cutoff[i] - prev
     dim = int(initial_dim // (factor ** i))
     seq = nn.Sequential(
     	nn.Embedding(size, dim, padding_idx),
-        nn.Linear(dim, output_dim, bias=False)
+      nn.Linear(dim, output_dim, bias=False)
     )
     self.embeddings.append(seq)
 ```
