@@ -1,7 +1,7 @@
 > Keep true to the dreams of thy youth.
 
 
-Hi, I am Hoon Heo, an graduate student.
+Hi, I am Hoon Heo, a graduate student.
 
 I have a high interest in Natural Language Processing and Deep Learning. So, I am studying my Master's degree in Deep Learning & NLP area @[**Instituto Superior Técnico**](https://tecnico.ulisboa.pt/pt/).
 
