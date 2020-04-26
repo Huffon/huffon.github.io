@@ -34,17 +34,15 @@ model = TFGPT2LMHeadModel.from_pretrained("gpt2", pad_token_id=tokenizer.eos_tok
 ```
 
 ## Greedy Search
-Greedy search는 단순히 매 타임 스텝 _t_ 마다 아래 수식을 이용해 다음에 올 단어를 예측합니다.
+Greedy search는 단순히 매 타임 스텝 _t_ 마다 아래 수식을 이용해 다음에 올 단어를 예측하는 방법입니다.
 Greedy search simply selects the word with the highest probability as its next word: 수식 at each timestep t. 
 
-아래 그림은 Greedy search가 어떻게 진행되는지 보여줍니다.
+아래 그림은 Greedy search가 어떻게 진행되는지 보여주는 그림입니다.
 
 ![](/img/in-post/greedy-search.png)
 
-The following sketch shows greedy search.
+Greed search는 **"The"**에서 시작해 가장 높은 확률 값을 가지는 **"nice"**를 선택하고, 이후에도 마찬가지로 가장 높은 확률 값을 지니는 단어들을 탐욕적으로 선택하게 됩니다. 따라서 최종적으로 생성되는 시퀀스는 *"The", "nice", "woman"* 이 되고, 해당 문장이 생성될 확률은 **0.5 x 0.4 = 0.2**가 됩니다.
 
-greedy search
-Starting from the word \text{"The"}"The", the algorithm greedily chooses the next word of highest probability \text{"nice"}"nice" and so on, so that the final generated word sequence is \text{"The", "nice", "woman"}"The", "nice", "woman" having an overall probability of 0.5 \times 0.4 = 0.20.5×0.4=0.2.
 
 In the following we will generate word sequences using GPT2 on the context (\text{"I", "enjoy", "walking", "with", "my", "cute", "dog"})("I", "enjoy", "walking", "with", "my", "cute", "dog"). Let's see how greedy search can be used in transformers:
 
