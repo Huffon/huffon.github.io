@@ -15,6 +15,9 @@ tags:
 
 ## 들어가며
 
+![](/img/in-post/wework.jpg)
+> 시애틀에 위치한 WeWork
+
 이번 주는 제가 정규직을 그만두고 독립적인 NLP/ML 엔지니어 및 리서처가 된지 1 주년이 되는 주입니다. 지금부터 이를 **"프리랜서 AI 엔지니어"**라고 칭하도록 하겠습니다. 제가 경험한 프리랜서 생활은 매우 긍정적이었으며, 지난 1년은 아마 제 커리어에 있어 가장 생산적이었던 한 해 였을 것입니다. 해당 기간 동안 제가 달성한 **"성취"**는 다음과 같습니다:
 
 - 1년 반 동안 작업하던 NLP 입문서 [**Real-World NLP**](https://www.manning.com/books/real-world-natural-language-processing) 집필 및 출간
@@ -58,6 +61,9 @@ tags:
 ## Making a living
 
 
+![](/img/in-post/sigmoid.png)
+> [전망 이론은 팩트입니다](https://ko.wikipedia.org/wiki/%EC%A0%84%EB%A7%9D%EC%9D%B4%EB%A1%A0)
+
 We have enough savings to keep us from being hungry for a couple of years even if I didn’t work at all, and my wife works full time, which was really helpful when I made the leap. 
 Even with enough savings, though, cash flow fluctuation can have a noticeable impact on your sense of financial security. 
 If you work with net 30 clients, for example, it takes two months to get paid after you start working for them. 
@@ -72,6 +78,9 @@ I could totally have worked more to make more, but having small kids, spending t
 
 ## 클라이언트 찾기
 
+![](/img/in-post/west_coast.jpg)
+> 2019년 West Coast NLP
+
 저는 대부분의 클라이언트을 제 **네트워크**를 통해 찾았습니다. **컨퍼런스**와 **워크샵**은 **잠재 고객**을 찾는데 매우 유용한 장소입니다. 특히 여러분이 발표할 기회가 있다면 이는 더 좋은 기회가 되겠죠. 그리고 저는 제가 정말 함께 작업하고 싶은 **잠재 고객**을 찾으면, 해당 회사의 **"채용 공고"** 페이지에서 직접 지원을 하기도 합니다. 많은 직원들은 (특히 스타트업이라면 더욱이) 고용 형태에 대해 제대로 밝히기만 한다면 **원격 혹은 파트 타임**으로 회사에 기여할 수 있는 사람들에게 열려 있습니다.
 
 하지만 프리랜서로서 대부분의 계약은 **몇 달**을 넘지 않기 때문에, 여러분은 항상 잠재 고객들을 물색해야 합니다. 이 점이 정규직과 프리랜서의 **가장 큰 차이점**입니다. 정규직으로 근무했을 당시 제가 취한 "구직 활동"은 많아봤자 **이지선다**였습니다. **"전혀 찾아보지 않거나"** 혹은 **"열렬히 찾아보거나"**. 만약 여러분이 **안정적인 직업과 급여**를 원하신다면 프리랜서가 되는 것은 좋은 선택지가 아닙니다.
@@ -79,6 +88,9 @@ I could totally have worked more to make more, but having small kids, spending t
 <br/>
 
 ## 자유
+
+![](/img/in-post/seoul.jpg)
+> 2018년 서울
 
 사람들은 프리랜서의 가장 큰 장점으로 **장소와 시간에 구애받지 않는 자유**라고 이야기하곤 합니다. 이는 아마 가장 중요한 요소는 아닐 것입니다. 적어도 제게는 말이죠. 특히 기술 분야의 많은 고용주들은 직원이 제대로 된 작업만 처리한다면 **어디서 일하든**, **언제 일하든** 크게 개의치 않는 경향이 있습니다.
 
@@ -114,6 +126,8 @@ I could totally have worked more to make more, but having small kids, spending t
 
 ## 업무
 
+![](/img/in-post/xkcd.png)
+
 지금까지 본 글은 "AI"와 거의 연관이 없는 내용을 다루었습니다. 저는 실제로 어떤 업무를 하고 있을까요? 지난 몇 년간 저는 **컨설턴트**, **엔지니어** 그리고 **연구자** 등 다양한 직업들을 경험했습니다. 어떤 클라이언트들에게 저는 미팅을 잡고 그들이 AI 프로젝트를 구현하기 위해 나아가야 할 방향에 대한 **조언**을 줍니다. 다른 클라이언트들에게는 계약직 소프트웨어 엔지니어로써 **코드**를 작성해줍니다. 또 다른 클라이언트들에게는 리서치를 함께 하고 **논문**을 공동 집필합니다. 그러나 대개는 위 **세 가지 작업이 혼합된 일**을 하는 것 같습니다.
 
 제 생각에 현대의 머신러닝 작업은 **파트 타임**으로 수행하는 것이 보다 적합한 것 같습니다. 만약 여러분이 **큰 규모의 모델**을 개발 혹은 연구하고 있다면, 해당 모델을 훈련시키는데 수 시간-수 일이 소요되는 것은 매우 흔한 일일 것 입니다. 머신러닝 종사자들은 **모델을 훈련**시키고 **하이퍼 파라미터를 튜닝**하는데 얼만큼의 시간이 소요되는지 알고 있습니다. 
@@ -137,6 +151,9 @@ I think you’d be better off if you lived in a cheaper city and work with clien
 <br/>
 
 ## 커리어 계발
+
+![](/img/in-post/cands.jpg)
+> 피츠버그에 위치한 코워킹 스페이스 [Code & Supply](https://codeandsupply.co/)
 
 여러분이 **커리어를 계발**하고 보다 **숙련된 프리랜서**가 되는 방법은 존재합니다. 그러나 이는 정규직의 계발과 매우 다릅니다. 저도 이제 프리랜서를 시작하는 입장이기 때문에 본 계발 방법은 내년에 또 달라질 수도 있습니다.
 
