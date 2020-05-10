@@ -9,14 +9,17 @@ tags:
   - Etc.
 ---
 
-본 글은
+본 글은 유수의 기업에서 리서치 경험을 하고, Duolingo에서 아시아권 언어들과 관련해 흥미로운 연구들을 수행한 [Masato Hagiwara](https://masatohagiwara.net/#about)가 정규직 근무를 그만두고, 1 년간 프리랜서 생활을 하며 느낀 경험과 생각을 정리한 [글](https://masatohagiwara.net/202002-my-first-year-as-a-freelance-ai-engineer.html)을 Masato에게 허락을 구하고 번역한 글입니다.
+
+원글은 미국에서의 프리랜서 생활에 대한 이야기를 다루고 있기는 하지만, 최근 한국에서도 인공지능과 관련해 많은 일자리가 생기고 있기 때문에 한국에서도 충분히 고려해볼 수 있는 상황에 대한 이야기라고 생각합니다. 프리랜서를 한 번이라도 고민해보신 분이라면 재밌게 읽으실 수 있을테니 편한 마음으로 읽어주시면 되겠습니다 :) 
 
 <br/>
 
 ## 들어가며
 
-![](/img/in-post/wework.jpg)
-> 시애틀에 위치한 WeWork
+| ![](/img/in-post/wework.jpg) |
+|:--:| 
+| _시애틀에 위치한 WeWork_ |
 
 이번 주는 제가 정규직을 그만두고 독립적인 NLP/ML 엔지니어 및 리서처가 된지 1 주년이 되는 주입니다. 지금부터 이를 **"프리랜서 AI 엔지니어"**라고 칭하도록 하겠습니다. 제가 경험한 프리랜서 생활은 매우 긍정적이었으며, 지난 1년은 아마 제 커리어에 있어 가장 생산적이었던 한 해 였을 것입니다. 해당 기간 동안 제가 달성한 **"성취"**는 다음과 같습니다:
 
@@ -58,21 +61,17 @@ tags:
 
 <br/>
 
-## Making a living
+## 생계 유지
 
-![](/img/in-post/sigmoid.png)
-> [전망 이론은 팩트입니다](https://ko.wikipedia.org/wiki/%EC%A0%84%EB%A7%9D%EC%9D%B4%EB%A1%A0)
+| ![](/img/in-post/sigmoid.png) |
+|:--:| 
+| _[전망 이론은 팩트입니다](https://ko.wikipedia.org/wiki/%EC%A0%84%EB%A7%9D%EC%9D%B4%EB%A1%A0)_ | 
 
-We have enough savings to keep us from being hungry for a couple of years even if I didn’t work at all, and my wife works full time, which was really helpful when I made the leap. 
-Even with enough savings, though, cash flow fluctuation can have a noticeable impact on your sense of financial security. 
-If you work with net 30 clients, for example, it takes two months to get paid after you start working for them. 
-I had some short periods of time when we had negative cash flow (especially when we moved from Pittsburgh to Seattle last summer) that ate our savings, and I really felt the impact of loss aversion. 
-You feel a lot worse losing a certain amount of money than you feel better gaining the same amount. 
-If financial security is your priority, you should probably get a full-time job.
+저는 앞으로 몇 년간 일을 하지 않아도 굶주리지 않을 정도로 돈을 비축해두긴 했습니다. 그리고 아내가 정규직으로 근무하고 있다는 사실도 제가 프리랜서로 전환을 하는데 있어 많은 도움이 되었습니다. 그러나 충분한 저축액이 있다하더라도, 돈이 빠져나가는 것을 보는 것은 여러분의 **재무 안정감**에 많은 영향을 끼칠 수 있습니다.
 
-정규직으로 근무할 당시와 비교해보면, 저는 이전보다 돈은 적게 벌고 있지만 더 적게 일하고 있기도 합니다.
+예를 들어 여러분이 30 개의 클라이언트들과 일을 하고 있다라고 하면, 여러분은 클라이언트의 일을 수행한지 2 달이 지나야만 계약 금액을 지급받을 수 있을 것입니다. 그리고 저는 실제로 작년 여름에 피츠버그에서 시애틀로 이사하는 과정에서 많은 돈을 소비하며 [**Loss aversion**](https://en.wikipedia.org/wiki/Loss_aversion)을 경험했습니다. 전망 이론에 의하면 사람들은 5 달러를 버는 것보다 **5 달러를 잃을 때 더 많은 손실감**을 느낀다고 합니다. 만약 재무 안정감이 여러분의 우선 순위에 위치하고 있다면, 여러분은 정규직으로 근무를 하는 편이 좋겠습니다.
 
-I could totally have worked more to make more, but having small kids, spending time with my family is important.
+정규직으로 근무할 당시와 비교해보자면, 저는 이전보다 돈은 적게 벌고 있지만 이와 동시에 더 적게 일하고 있기도 합니다. 물론 더 많이 일하고 더 많은 돈을 벌수도 있겠지만, 어린 아이들을 키우는 입장에서 제겐 **가족들과 함께 시간을 보내는 것** 역시 중요합니다.
 
 <br/>
 
@@ -91,8 +90,9 @@ I could totally have worked more to make more, but having small kids, spending t
 
 ## 자유
 
-![](/img/in-post/seoul.jpg)
-> 2018년 서울
+| ![](/img/in-post/seoul.jpg) |
+|:--:| 
+| _2018년 서울_ |
 
 사람들은 프리랜서의 가장 큰 장점으로 **장소와 시간에 구애받지 않는 자유**라고 이야기하곤 합니다. 이는 아마 가장 중요한 요소는 아닐 것입니다. 적어도 제게는 말이죠. 특히 기술 분야의 많은 고용주들은 직원이 제대로 된 작업만 처리한다면 **어디서 일하든**, **언제 일하든** 크게 개의치 않는 경향이 있습니다.
 
@@ -144,18 +144,14 @@ I could totally have worked more to make more, but having small kids, spending t
 
 클라이언트에게 **"제가 지난 주에 이만큼의 시간 동안 논문을 읽었으니 돈을 지불해주십시오"**라고 말을 할 수는 없겠죠 (만약 그렇게 해주는 클라이언트가 있다면 제게도 알려주세요). 기억하세요. 당신은 AI를 학습하기 위해 고용된 것이 아닌 클라이언트의 문제를 해결하기 위해 고용된 **프로**입니다. 그리고 모든 고용주들은 당신이 이미 **최근 AI 발전**을 모두 캐치업 하고 있는 사람이기를 기대할 것입니다. (네, 네.. 저도 압니다. 여기 최근의 AI 발전에 있어 하나의 도메인이라도 제대로 캐치업하고 계신 분이 계신가요?) 제 생각에 이러한 **수익성 없는 학습**은 AI 프리랜서로서 스스로 지불해야 할 대가라고 생각합니다.
 
-저는 시애틀에 거주하고 있지만 이 사실이 프리랜서가 되는 것에 도움이 되는지는 모르겠습니다. 저는 원격으로 근무하며, 컨퍼런스에서 발표를 할 때를 제외하고는 거의 출근을 하지 않습니다.
-Allen AI와 근무하
-I work with Allen AI, and it’s nice that I can simply drop by on short notice and have lunch with the team, although I would be able to do my work even if I was on the other side of the earth. 
-만약 여러분이 원격으로 업무를 보신다면, 
-I think you’d be better off if you lived in a cheaper city and work with clients in other large tech hubs.
+저는 시애틀에 거주하고 있지만 이 사실이 프리랜서가 된다는 것에 도움이 되는지는 모르겠습니다. 저는 컨퍼런스에서 발표를 해야할 때를 제외하고는 거의 출근을 하지 않습니다. 저는 또한 **Allen AI**와 함께 일을 하기도 하는데, 지구 반대편에 살면서도 방문하고 싶을 때 회사에 방문해 팀원들과 점심 식사를 함께 할 수 있다는 것은 정말이지 굉장한 이점입니다. 만약 여러분이 원격으로 근무를 하신다면 상대적으로 **저렴한 도시**에 거주하며, **테크 허브**에 위치한 클라이언트들과 함께 협력하는 것이 좋은 선택이라 생각합니다.
 
 <br/>
 
 ## 커리어 계발
-
-![](/img/in-post/cands.jpg)
-> 피츠버그에 위치한 코워킹 스페이스 [Code & Supply](https://codeandsupply.co/)
+| ![](/img/in-post/cands.jpg) |
+|:--:| 
+| _피츠버그에 위치한 코워킹 스페이스 [Code & Supply](https://codeandsupply.co/)_ |
 
 여러분이 **커리어를 계발**하고 보다 **숙련된 프리랜서**가 되는 방법은 존재합니다. 그러나 이는 정규직의 계발과 매우 다릅니다. 저도 이제 프리랜서를 시작하는 입장이기 때문에 본 계발 방법은 내년에 또 달라질 수도 있습니다.
 
@@ -175,7 +171,4 @@ I think you’d be better off if you lived in a cheaper city and work with clien
 
 ## 요약
 
-본 포스트를 통해 저는 **프리랜서 AI 엔지니어**가 가능한 커리어 패스임을 보여주고자 했습니다. 
-
-You need to understand that this is a very qualified statement and your mileage may vary.
-여러분이 프리랜서의 길에 뛰어들고 파산하더라도 저에게 화를 내지는 말아주세요. 글을 읽고 궁금한 점이 생기셨거나 질문 혹은 피드백을 원하신다면 언제든 제게 메일을 보내주세요. 제 경험을 이렇게 공유하게 되어 기쁘네요!
+본 포스트를 통해 저는 **프리랜서 AI 엔지니어**가 가능한 커리어 패스임을 보여주고자 했습니다. 사람마다 처한 상황이 다르기 때문에 여러분은 이 글이 주관적일 수 있음을 이해하셔야 합니다. 프리랜서의 길에 뛰어들고 파산하더라도 저에게 화를 내지는 말아주세요. 글을 읽고 궁금한 점이 생기셨거나 질문 혹은 피드백을 원하신다면 언제든 제게 메일을 보내주세요. 제 경험을 이렇게 공유하게 되어 기쁘네요!
