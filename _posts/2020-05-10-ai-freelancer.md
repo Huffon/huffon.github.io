@@ -60,7 +60,6 @@ tags:
 
 ## Making a living
 
-
 ![](/img/in-post/sigmoid.png)
 > [전망 이론은 팩트입니다](https://ko.wikipedia.org/wiki/%EC%A0%84%EB%A7%9D%EC%9D%B4%EB%A1%A0)
 
@@ -71,15 +70,18 @@ I had some short periods of time when we had negative cash flow (especially when
 You feel a lot worse losing a certain amount of money than you feel better gaining the same amount. 
 If financial security is your priority, you should probably get a full-time job.
 
-Compared to when I was working full-time, I made less money but also worked fewer hours in the past year. 
+정규직으로 근무할 당시와 비교해보면, 저는 이전보다 돈은 적게 벌고 있지만 더 적게 일하고 있기도 합니다.
+
 I could totally have worked more to make more, but having small kids, spending time with my family is important.
 
 <br/>
 
 ## 클라이언트 찾기
 
-![](/img/in-post/west_coast.jpg)
-> 2019년 West Coast NLP
+| ![](/img/in-post/west_coast.jpg) | 
+|:--:| 
+| _2019년 West Coast NLP_ |
+
 
 저는 대부분의 클라이언트을 제 **네트워크**를 통해 찾았습니다. **컨퍼런스**와 **워크샵**은 **잠재 고객**을 찾는데 매우 유용한 장소입니다. 특히 여러분이 발표할 기회가 있다면 이는 더 좋은 기회가 되겠죠. 그리고 저는 제가 정말 함께 작업하고 싶은 **잠재 고객**을 찾으면, 해당 회사의 **"채용 공고"** 페이지에서 직접 지원을 하기도 합니다. 많은 직원들은 (특히 스타트업이라면 더욱이) 고용 형태에 대해 제대로 밝히기만 한다면 **원격 혹은 파트 타임**으로 회사에 기여할 수 있는 사람들에게 열려 있습니다.
 
