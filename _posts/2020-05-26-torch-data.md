@@ -84,7 +84,7 @@ _Note: **Iterable-style 데이터셋**의 경우, 인덱스 혹은 키 등의 �
 
 `batch_size`가 `None`이 아니라면, **DataLoader**는 **배치 샘플**을 `yield`하게 됩니다. 앞서 설명한 것과 마찬가지로, **Map-style 데이터셋**의 경우, 인덱스 시퀀스를 `yield` 해주는 **Sampler**를 구현해 `batch_sampler` 인자에 해당 **Sampler** 객체를 넘겨주는 방식으로도 배치 샘플을 모델에 **Feeding** 할 수 있습니다.
 
-_Note: `batch_size`와 `drop_last` 인자는 `sampler`로부터 `batch_sampler`를 구성하기 위해 사용됩니다. **Map-style 데이터셋**의 경우, `sampler`가 사용자에 의해 전달되거나, `shuffle` 인자에 의해 결정됩니다. **Iterable-style 데이터셋**의 경우 `sampler`에 더미 값 `1`이 들어가게 됩니다._
+_Note: `batch_size`와 `drop_last` 인자는 `sampler`로부터 `batch_sampler`를 구성하기 위해 사용됩니다. **Map-style 데이터셋**의 경우, `sampler`가 사용자에 의해 전달되거나, `shuffle` 인자에 의해 결정됩니다. **Iterable-style 데이터셋**의 경우 `sampler`에 더미 값 `[1, 1, ..., 1]`이 들어가게 됩니다._
 
 _Note: **Iterable-style 데이터셋**을 멀티 프로세서로 활용한다면, `drop__last` 인자를 통해 각 워커가 복제해 사용하는 데이터셋에서 **마지막 미완성 배치**를 활용할지 말지 정하게 됩니다._
 
