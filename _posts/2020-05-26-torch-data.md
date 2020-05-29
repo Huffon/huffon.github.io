@@ -43,18 +43,17 @@ _Note: `IterableDataset`을 멀티 프로세스로 활용하면, **동일한 데
 
 ```python
 # 중복 데이터 방지하는 예시
-
 def __iter__(self):
-	worker_info = torch.utils.data.get_worker_info()
-	if worker_info is None:  # 싱글 프로세스로 데이터 로딩할 경우, Full Iterator를 반환
-		iter_start = self.start
-		iter_end = self.end
-	else:  # 멀티 프로세스로 데이터 로딩할 경우, 워크 로드 분배
-		per_worker = int(math.ceil((self.end - self.start) / float(worker_info.num_workers)))
-		worker_id = worker_info.id
-		iter_start = self.start + worker_id * per_worker
-		iter_end = min(iter_start + per_worker, self.end)
-	return iter(range(iter_start, iter_end))
+  worker_info = torch.utils.data.get_worker_info()
+  if worker_info is None:  # 싱글 프로세스로 데이터 로딩할 경우, Full Iterator를 반환
+    iter_start = self.start
+    iter_end = self.end
+  else:  # 멀티 프로세스로 데이터 로딩할 경우, 워크 로드 분배
+    per_worker = int(math.ceil((self.end - self.start) / float(worker_info.num_workers)))
+    worker_id = worker_info.id
+    iter_start = self.start + worker_id * per_worker
+    iter_end = min(iter_start + per_worker, self.end)
+  return iter(range(iter_start, iter_end))
 ```
 
 <br/>
@@ -95,7 +94,7 @@ _Note: **Iterable-style 데이터셋**을 멀티 프로세서로 활용한다면
 
 ```python
 for indices in batch_sampler:
-	yield collate_fn([dataset[i] for i in indices])
+  yield collate_fn([dataset[i] for i in indices])
 ```
 
 그리고 **Iterable-style 데이터셋**에서 데이터를 읽어오는 과정은 다음과 같아집니다:
@@ -103,7 +102,7 @@ for indices in batch_sampler:
 ```python
 dataset_iter = iter(dataset)
 for indices in batch_sampler:
-	yield collate_fn([next(dataset_iter) for _ in indices])
+  yield collate_fn([next(dataset_iter) for _ in indices])
 ```
 
 추가적으로 배치 내 존재하는 **시퀀셜 데이터**를 **최대 길이만큼 패딩**한다거나 등의 **추가 작업**을 수행할 수 있는 **커스텀 `collate_fn`**을 구현해 활용할 수도 있습니다.
@@ -122,14 +121,14 @@ for indices in batch_sampler:
 
 ```python
 for index in sampler:
-	yield collate_fn(dataset[index])
+  yield collate_fn(dataset[index])
 ```
 
 그리고 **Iterable-style 데이터셋**에서 데이터를 읽어오는 과정은 다음과 같아집니다:
 
 ```python
 for data in iter(dataset):
-	yield collate_fn(data)
+  yield collate_fn(data)
 ```
 
 <br/>
