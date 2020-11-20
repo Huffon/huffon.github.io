@@ -72,7 +72,7 @@ tokenizer.tokenize("I have a new GPU!")
 
 ```python
 from transformers import XLNetTokenizer
-tokenizer = XLNetTokenizer.from_pretrained("xlnet-bse-cased")
+tokenizer = XLNetTokenizer.from_pretrained("xlnet-base-cased")
 tokenizer.tokenize("Don't you love transformers? We sure do.")
 >>> ["▁Don", "'", "t", "▁you", "▁love", "▁", "Transform", "ers", "?", "▁We", "▁sure", "▁do", "."]
 ```
