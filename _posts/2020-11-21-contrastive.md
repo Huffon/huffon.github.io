@@ -46,7 +46,7 @@ Computer Vision 분야에서는 이처럼 **Contrastive Learning**을 다양하�
 
 ![](/img/in-post/cert-bt.png)
 
-이제 추출된 문장에 서로 다른 _back-translation_ 을 적용해 두 개의 _augmented sentences_ (x', x'') 를 구해놓습니다. 그리고 이렇게 증강된 문장들이 **같은 문장** (x') 을 기반으로 증강된 것이라면 _positive pair_ 가 그렇지 않으면, _negative pair_ 로 설정을 하게 됩니다. 이후 _positive pair_ 로 설정된 증강 데이터들은 가까이 _negative pair_ 로 설정된 증강 데이터들은 멀리 위치하도록 학습을 시키게 됩니다. 그리고 이 과정 이후 최종적으로 _label_ 을 활용해 태스크를 (우리가 아는 일반적인 방식으로) 풀도록 합니다. **CERT**에서는 이 과정을 통해 아키텍처의 변경 없이, **GLUE** 벤치마크에서 (약간의) 성능 향상을 얻을 수 있었습니다.
+이제 추출된 문장에 서로 다른 _back-translation_ 을 적용해 두 개의 _augmented sentences_ (x', x'') 를 구해놓습니다. 그리고 이렇게 증강된 문장들이 **같은 문장** (x) 을 기반으로 증강된 것이라면 _positive pair_ 가 그렇지 않으면, _negative pair_ 로 설정을 하게 됩니다. 이후 _positive pair_ 로 설정된 증강 데이터들은 가까이 _negative pair_ 로 설정된 증강 데이터들은 멀리 위치하도록 학습을 시키게 됩니다. 그리고 이 과정 이후 최종적으로 _label_ 을 활용해 태스크를 (우리가 아는 일반적인 방식으로) 풀도록 합니다. **CERT**에서는 이 과정을 통해 아키텍처의 변경 없이, **GLUE** 벤치마크에서 (약간의) 성능 향상을 얻을 수 있었습니다.
 
 ![](/img/in-post/cert.png)
 > CERT 의 훈련 파이프라인
@@ -82,7 +82,7 @@ Computer Vision 분야에서는 이처럼 **Contrastive Learning**을 다양하�
 
 말은 거창했지만, 글의 흐름을 잘 따라오신 분들이라면 저자진이 고안한 훈련 방안이 새로운 것이 아니라는 것은 눈치 채셨을 것입니다. 단순히 **Cross-entropy Loss**와 **Supervised Contrastive Learning**을 **Fine-tuning** 단에 섞어 활용을 하겠다는 것지요. (1) 식을 보시면 **Cross-entropy**로 발생하는 _Loss_ 를 `(1 - lambda)` 만큼, **Contrastive Learning**으로서 발생하는 _Loss_ 를 `lambda` 만큼 학습에 활용합니다. (여기서 `lambda`는 태스크 별로 다르게 적용 가능한 하이퍼 파라미터입니다.)
 
-다음으로 (3)의 **Contrastive Learning Loss**를 보게 되면 N 개 배치에서 Row와 Column을 각각 돌며 (i, i) 번째 인스턴스와 동일한 클래스의 인스턴스들은 (i, i) 인스턴스와 가까워지도록, 그렇지 않은 인스턴스들은 (i, i) 번째 인스턴스와 멀어지도록 학습을 시켜야 Loss가 감소하게 됩니다. 여기서 `gamma` 는 클래스 간 분할을 얼마나 더 엄격하게 시킬지를 결정하는 하이퍼 파라미터입니다. 일반적으로 큰 값의 `gamma`는 클래스 간 분할이 보다 쉽게 이루어질 수 있도록 도와줍니다. 그리고 작은 값의 `gamma`는 일종의 Hard Positive / Negative 를 형성해 학습을 보다 어렵게 하지만, 강건한 분류기를 기대할 수도록 도와주게 됩니다. ([참조](https://arxiv.org/pdf/2004.11362.pdf))
+다음으로 (3)의 **Contrastive Learning Loss**를 보게 되면 N 개 배치에서 Row와 Column을 각각 돌며 (i, i) 번째 인스턴스와 동일한 클래스의 인스턴스들은 (i, i) 인스턴스와 가까워지도록, 그렇지 않은 인스턴스들은 (i, i) 번째 인스턴스와 멀어지도록 학습을 시켜야 Loss가 감소하게 됩니다. 여기서 `tau` 는 클래스 간 분할을 얼마나 더 엄격하게 시킬지를 결정하는 하이퍼 파라미터입니다. 일반적으로 큰 값의 `tau`는 클래스 간 분할이 보다 쉽게 이루어질 수 있도록 도와줍니다. 그리고 작은 값의 `tau`는 일종의 Hard Positive / Negative 를 형성해 학습을 보다 어렵게 하지만, 강건한 분류기를 기대할 수도록 도와주게 됩니다. ([참조](https://arxiv.org/pdf/2004.11362.pdf))
 
 ![](/img/in-post/sample-scl.png)
 
